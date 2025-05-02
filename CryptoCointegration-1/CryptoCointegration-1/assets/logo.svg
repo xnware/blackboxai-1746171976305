@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Background Circle -->
+  <circle cx="64" cy="64" r="60" fill="#f0f0f0" stroke="#1E88E5" stroke-width="3"/>
+  
+  <!-- Price Graph Lines -->
+  <path d="M20,84 C30,70 40,78 50,64 C60,50 70,36 90,40 C110,44 110,64 110,84" 
+        fill="none" stroke="#1E88E5" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Second Price Graph Line -->
+  <path d="M20,60 C30,54 40,74 50,70 C60,66 70,54 90,58 C110,62 110,70 110,80" 
+        fill="none" stroke="#FF5252" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Z-Score Visualization -->
+  <line x1="30" y1="100" x2="98" y2="100" stroke="#666" stroke-width="1.5" stroke-dasharray="4"/>
+  <path d="M30,100 C40,90 50,110 60,95 C70,80 80,120 90,100" 
+        fill="none" stroke="#4CAF50" stroke-width="2.5"/>
+        
+  <!-- Crossing Point -->
+  <circle cx="60" cy="95" r="3" fill="#FFD600"/>
+  
+  <!-- Text -->
+  <text x="64" y="28" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#1E88E5">PAIR TRADING</text>
+  <text x="64" y="42" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">COINTEGRATION</text>
+</svg>
